@@ -1,10 +1,11 @@
-# 🏥 Daytona Medical App
+# 🤖 Medibot - Medical AI Assistant
 
 A comprehensive medical application with patient database, MCP server, and intelligent chatbot built for the Daytona platform.
 
 ## 🚀 Features
 
 ### 📊 **Analytics Dashboard**
+![Medical Dashboard](https://via.placeholder.com/800x400/667eea/ffffff?text=Medical+Analytics+Dashboard)
 - **Generic Charts**: Patient demographics, medical conditions, vital signs trends
 - **Lab Analysis**: Normal vs abnormal lab results distribution
 - **Alert Management**: Severity-based alert categorization
@@ -12,6 +13,7 @@ A comprehensive medical application with patient database, MCP server, and intel
 - **Real-time Stats**: Live patient counts, alerts, tasks, and lab results
 
 ### 🤖 **Intelligent Chatbot**
+![Medical Chatbot](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Medical+AI+Chatbot)
 - **Patient Queries**: Search patients by name, ID, or medical conditions
 - **Medical Conditions**: "Who has diabetes?", "Show hypertension patients"
 - **Vitals Trends**: "Show John's vitals trends", "Sarah's blood pressure over time"
@@ -41,7 +43,7 @@ A comprehensive medical application with patient database, MCP server, and intel
 ## 📁 **Project Structure**
 
 ```
-daytona_medical_app/
+medibot/
 ├── src/                          # Main application source
 │   ├── database/                 # Database initialization and seeding
 │   │   ├── init.js              # Database schema creation
@@ -226,6 +228,22 @@ For issues and questions:
 - Test with sample data
 - Check server logs for errors
 
+## 🖼️ **Screenshots**
+
+### **Analytics Dashboard**
+The dashboard provides comprehensive medical analytics with:
+- **Patient Demographics**: Gender distribution with interactive pie charts
+- **Medical Conditions**: Bar charts showing condition prevalence
+- **Real-time Statistics**: Live patient counts, alerts, and lab results
+- **Interactive Charts**: Clickable elements for detailed analysis
+
+### **AI Chatbot Interface**
+The intelligent chatbot offers:
+- **Natural Language Queries**: "Who has diabetes?", "Show patient vitals"
+- **Medical Insights**: Patient-specific medical data and trends
+- **Interactive Responses**: Direct links to charts and detailed information
+- **Context-Aware**: Understands medical terminology and patient relationships
+
 ---
 
-**Built with ❤️ for the Daytona platform**# medibot
+**Built with ❤️ for the Daytona platform**
