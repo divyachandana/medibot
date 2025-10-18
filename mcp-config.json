@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "medical-app": {
+      "command": "node",
+      "args": ["src/mcp/start.js"],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

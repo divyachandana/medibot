@@ -1,0 +1,29 @@
+# Daytona Configuration for Medical App
+name: medical-app
+type: service
+image: node:18-alpine
+
+# Environment variables
+env:
+  - NODE_ENV=production
+  - PORT=3000
+  - HOST=0.0.0.0
+
+# Commands to run
+commands:
+  - npm install
+  - npm run init-db
+  - npm run seed-db
+  - npm start
+
+# Expose port
+ports:
+  - 3000:3000
+
+# Health check
+healthcheck:
+  path: /
+  port: 3000
+  interval: 30s
+  timeout: 10s
+  retries: 3

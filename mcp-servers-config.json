@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "daytona-mcp": {
+      "command": "daytona",
+      "args": ["mcp", "start"],
+      "env": {
+        "HOME": "/Users/divyachandana",
+        "PATH": "/Users/divyachandana:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/homebrew/bin"
+      },
+      "logFile": "/Users/divyachandana/.daytona/daytona-mcp.log"
+    },
+    "medical-app-mcp": {
+      "command": "node",
+      "args": ["src/mcp/start.js"],
+      "cwd": "/Users/divyachandana/Documents/daytona_medical_app",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
