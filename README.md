@@ -5,7 +5,7 @@ A comprehensive medical application with patient database, MCP server, and intel
 ## 🚀 Features
 
 ### 📊 **Analytics Dashboard**
-![Medical Dashboard](https://via.placeholder.com/800x400/667eea/ffffff?text=Medical+Analytics+Dashboard)
+![Medical Dashboard](./screenshots/dashboard.png)
 - **Generic Charts**: Patient demographics, medical conditions, vital signs trends
 - **Lab Analysis**: Normal vs abnormal lab results distribution
 - **Alert Management**: Severity-based alert categorization
@@ -13,7 +13,7 @@ A comprehensive medical application with patient database, MCP server, and intel
 - **Real-time Stats**: Live patient counts, alerts, tasks, and lab results
 
 ### 🤖 **Intelligent Chatbot**
-![Medical Chatbot](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Medical+AI+Chatbot)
+![Medical Chatbot](./screenshots/chatbot.png)
 - **Patient Queries**: Search patients by name, ID, or medical conditions
 - **Medical Conditions**: "Who has diabetes?", "Show hypertension patients"
 - **Vitals Trends**: "Show John's vitals trends", "Sarah's blood pressure over time"
@@ -243,6 +243,27 @@ The intelligent chatbot offers:
 - **Medical Insights**: Patient-specific medical data and trends
 - **Interactive Responses**: Direct links to charts and detailed information
 - **Context-Aware**: Understands medical terminology and patient relationships
+
+## 💡 **Inspiration**
+MediBot helps doctors query patients quickly and see live charts about patient vitals and medical data for faster clinical decision-making.
+
+## 🎯 **What it does**
+MediBot provides an intelligent medical assistant with real-time patient analytics, AI-powered chatbot for medical queries, and interactive dashboards for comprehensive patient data visualization.
+
+## 🛠️ **How we built it**
+Built using Node.js/Express backend, SQLite database with comprehensive medical schema, Anthropic Claude AI integration, Chart.js for analytics, and deployed on Daytona platform with MCP server architecture.
+
+## 🚧 **Challenges we ran into**
+Integrating multiple AI models, handling real-time data synchronization, creating intuitive medical interfaces, and ensuring HIPAA-compliant data handling while maintaining performance.
+
+## 🏆 **Accomplishments that we're proud of**
+Successfully created a comprehensive medical AI system with live patient analytics, intelligent chatbot responses, and seamless integration between database, AI, and visualization components.
+
+## 📚 **What we learned**
+Advanced medical data modeling, AI integration patterns, real-time chart rendering, medical terminology processing, and building scalable healthcare applications with proper data security.
+
+## 🚀 **What's next for MediBot**
+Implementing advanced AI diagnostics, adding telemedicine features, expanding to mobile platforms, integrating with EHR systems, and developing predictive analytics for patient outcomes.
 
 ---
 
